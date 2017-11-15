@@ -1,7 +1,7 @@
 # HowTo fastly use the examples
 
 While phpDmx can also send Art-Net messages, using the OLA transport is the preferred way to test/use it.
-Using OLA allows to have maintain a DMX state at anytime, thus allowing to send some "Merge" commands (ie just change a fixture or channel, without resending the whole DMX state). 
+Using OLA allows to maintain a DMX state at anytime, thus allowing to send some "Merge" commands (ie just change a fixture or channel, without resending the whole DMX state). 
 OLA, also provide a nice DMX Monitor that is really useful for debugging.
 
 
