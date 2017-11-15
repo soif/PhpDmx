@@ -15,7 +15,7 @@ Contains fixture info, channels and presets.
 
 ### img (folder)
 Each images is named **NUM_NAME.jpg** :
-    - **01_front.jpg** is the main image and is mandatory !
-    - **NUM** : 01, 02, 03 etc...
-    - **NAME** : LOWERCASE, either **front** | **back** | **docX** (X = 1, 2, 3, etc...)
+- **01_front.jpg** is the main image and is mandatory !
+- **NUM** : 01, 02, 03 etc...
+- **NAME** : LOWERCASE, either **front** | **back** | **docX** (X = 1, 2, 3, etc...)
 
