@@ -5,7 +5,7 @@ require_once(dirname(__FILE__).'/config.php');
 // set your own setting :
 $server_ip		=$cfg['server_ip'];		// IP address of the OLA Server
 $universe		=$cfg['universe'];		// OLA Universe connected to DMX hardware
-$dmx_address 	=$cfg['dmx_address']	// test fixture address
+$dmx_address 	=$cfg['dmx_address'];	// test fixture address
 
 
 // Create a fixture object #########################################
@@ -33,8 +33,8 @@ if($imgs=$par1->GetImages()){$html_image="<img height=32 src='../lib/fixtures/{$
 // presets
 $html_presets=print_r($par1->ListDmxPresets(),true);
 
+echo HtmlHead('Send Fixture');
 echo <<<EOF
-{$cfg['html_head']}
 
 <h1>$html_image $id</h1>
 $html_table
